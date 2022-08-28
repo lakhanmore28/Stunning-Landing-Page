@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: aliceblue;
+    }
+  }
+
+.main{
+    width: 100%;
+    background-color:white;
+    background-position: center;
+    height: auto;
+}
+
+
+.navbar{
+
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 130px;
+    float: left;
+    height: 35px;
+}
+
+.logo-image{
+ 
+    
+    padding-left:10px;
+    float: left;
+    padding-top: 10px;
+
+
+
+}
+
+    
+
+
+menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+    
+}
+
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: black;
+    font-family:  Arial;
+    font-weight: bold;
+    transition: 0.4  ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff5100f8;
+
+}
+ul li a:hover {
+        border-bottom: 3px solid hsl(233, 75%, 11%);
+      }
+      
+   
+    
+
+.Account{
+    width: 350px;
+    float: left;
+    margin-left: 300px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FFD8DB;
+    border: 2px solid #f98ef7;
+    margin-top: 13px;
+    color: blue;
+    font-size: 15px;
+    border-radius: 12px;
+} 
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    background-color: #ef58ea;
+
+}
+.content{
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.content .paragrap{
+
+    padding-left: 20px;
+    padding-top: 20;
+    padding-bottom: 28px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+    margin-bottom:2%;
+
+}
+.dot{ 
+    margin-left: -5px;
+    font-size: 50px;
+    color: hsl(256, 78%, 40%);
+
+}
+.content .contact{
+
+    width: 160px;
+    height: 50px;
+    background: aliceblue;
+    border: none;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .4s ease;
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+
+}
+
+.content .contact a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+
+.contact:hover{
+
+    background-color:  #5243C0;
+    box-shadow: -5px -5px 10px #c5c5c5,
+    5px 5px 10px rgb(41, 90, 188);
+}
+    
+
+.contact_up_icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.contact_down_icon{
+    cursor: pointer;
+}
+.image_rightside{
+
+    height: 80%;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    cursor: pointer;
+}
+
+.image_rightside img{
+
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image_rightside:hover{
+         bottom: 10%; 
+}
+ .image_rightside:hover .Landing_img{
+
+    left: 20;
+
+ }
+  
+    
+  
+ .cards_1{ 
+    margin-top: 70px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: width .3em , height .3em; 
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+    
+}
+.cards_1:hover {
+    width: 360px;
+    height: 50px;
+}
+
+.cards_1:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px hsl(355, 74%, 83%);
+}
+.checkmark{
+    background-color: aliceblue;
+    color: #fff;
+}
+
+.checkmark:hover{
+      color: blue;
+}
+
+
+.item_name{ 
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.image_icon{
+   margin-top: 5px;
+
+}
+.date{
+    font-family: sans-serif;
+    align-items: center;
+    color: black;
+}
+.button1{
+    width: 38px;
+    height: 13px;
+    background-color: #FFD8DB;
+    border: 1px solid #ed8ee7;
+    border-radius: 10px;
+}
+
+
+
+.cards_2{ 
+    margin-top: 25px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: normal;
+    cursor: pointer;
+    transition: width .3em , height .3em; 
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+    
+}
+.cards_2:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px rgb(238, 161, 135);
+}
+.cards_2:hover {
+    width: 360px;
+    height: 50px;
+}
+
+.button2{
+    width: 38px;
+    height: 13px;
+    background-color: #FD6534;
+    border: 1px solid hsl(11, 88%, 56%);
+    border-radius: 10px;
+}
+.cards_3{ 
+    margin-top: 25px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: normal;
+    cursor: pointer;
+    transition: width .3em , height .3em; 
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+    
+}
+.cards_3:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px hsl(111, 62%, 81%);;
+}
+
+.cards_3:hover {
+    width: 360px;
+    height: 50px;
+}
+
+.button3{
+    width: 38px;
+    height: 13px;
+    background-color: #9ED095;
+    border: 1px solid #62d027;
+    border-radius: 10px;
+}
+.cards_4{ 
+    margin-top: 25px;
+    margin-bottom:90px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: normal;
+    cursor: pointer;
+    transition: width .3em , height .3em;           
+    
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+     
+}
+.cards_4:hover {
+    width: 360px;
+    height: 50px;
+}
+.cards_4:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px hsl(42, 79%, 78%);
+
+                
+}
+.button4{
+    width: 38px;
+    height: 13px;
+    background-color: #FFE4A0;
+    border: 1px solid hwb(52 13% 10%);
+    border-radius: 10px;
+}

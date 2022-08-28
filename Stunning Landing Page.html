@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <title>Stunning Landing page</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: aliceblue;
+    }
+  }
+
+.main{
+    width: 100%;
+    background-color:white;
+    background-position: center;
+    height: auto;
+}
+
+
+.navbar{
+
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 130px;
+    float: left;
+    height: 35px;
+}
+
+.logo-image{
+ 
+    
+    padding-left:10px;
+    float: left;
+    padding-top: 10px;
+
+
+
+}
+
+    
+
+
+menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+    
+}
+
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: black;
+    font-family:  Arial;
+    font-weight: bold;
+    transition: 0.4  ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff5100f8;
+
+}
+ul li a:hover {
+        border-bottom: 3px solid hsl(233, 75%, 11%);
+      }
+      
+   
+    
+
+.Account{
+    width: 350px;
+    float: left;
+    margin-left: 300px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FFD8DB;
+    border: 2px solid #f98ef7;
+    margin-top: 13px;
+    color: blue;
+    font-size: 15px;
+    border-radius: 12px;
+} 
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    background-color: #ef58ea;
+
+}
+.content{
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.content .paragrap{
+
+    padding-left: 20px;
+    padding-top: 20;
+    padding-bottom: 28px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+    margin-bottom:2%;
+
+}
+.dot{ 
+    margin-left: -5px;
+    font-size: 50px;
+    color: hsl(256, 78%, 40%);
+
+}
+.content .contact{
+
+    width: 160px;
+    height: 50px;
+    background: aliceblue;
+    border: none;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .4s ease;
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+
+}
+
+.content .contact a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+
+.contact:hover{
+
+    background-color:  #5243C0;
+    box-shadow: -5px -5px 10px #c5c5c5,
+    5px 5px 10px rgb(41, 90, 188);
+}
+    
+
+.contact_up_icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.contact_down_icon{
+    cursor: pointer;
+}
+.image_rightside{
+
+    height: 80%;
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    cursor: pointer;
+}
+
+.image_rightside img{
+
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image_rightside:hover{
+         bottom: 10%; 
+}
+ .image_rightside:hover .Landing_img{
+
+    left: 20;
+
+ }
+  
+    
+  
+ .cards_1{ 
+    margin-top: 70px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    transition: width .3em , height .3em; 
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+    
+}
+.cards_1:hover {
+    width: 360px;
+    height: 50px;
+}
+
+.cards_1:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px hsl(355, 74%, 83%);
+}
+.checkmark{
+    background-color: aliceblue;
+    color: #fff;
+}
+
+.checkmark:hover{
+      color: blue;
+}
+
+
+.item_name{ 
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.image_icon{
+   margin-top: 5px;
+
+}
+.date{
+    font-family: sans-serif;
+    align-items: center;
+    color: black;
+}
+.button1{
+    width: 38px;
+    height: 13px;
+    background-color: #FFD8DB;
+    border: 1px solid #ed8ee7;
+    border-radius: 10px;
+}
+
+
+
+.cards_2{ 
+    margin-top: 25px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: normal;
+    cursor: pointer;
+    transition: width .3em , height .3em; 
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+    
+}
+.cards_2:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px rgb(238, 161, 135);
+}
+.cards_2:hover {
+    width: 360px;
+    height: 50px;
+}
+
+.button2{
+    width: 38px;
+    height: 13px;
+    background-color: #FD6534;
+    border: 1px solid hsl(11, 88%, 56%);
+    border-radius: 10px;
+}
+.cards_3{ 
+    margin-top: 25px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: normal;
+    cursor: pointer;
+    transition: width .3em , height .3em; 
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+    
+}
+.cards_3:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px hsl(111, 62%, 81%);;
+}
+
+.cards_3:hover {
+    width: 360px;
+    height: 50px;
+}
+
+.button3{
+    width: 38px;
+    height: 13px;
+    background-color: #9ED095;
+    border: 1px solid #62d027;
+    border-radius: 10px;
+}
+.cards_4{ 
+    margin-top: 25px;
+    margin-bottom:90px;
+    margin-left: 250px;
+    height: 45px;
+    width: 350px;
+    display: flex; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-self: normal;
+    cursor: pointer;
+    transition: width .3em , height .3em;           
+    
+    box-shadow: 5px 5px 10px #c5c5c5,
+                -5px -5px 12px #fff;
+     
+}
+.cards_4:hover {
+    width: 360px;
+    height: 50px;
+}
+.cards_4:hover{
+
+    box-shadow: -5px -5px 10px #c5c5c5,
+                5px 5px 10px hsl(42, 79%, 78%);
+
+                
+}
+.button4{
+    width: 38px;
+    height: 13px;
+    background-color: #FFE4A0;
+    border: 1px solid hwb(52 13% 10%);
+    border-radius: 10px;
+}
+    </style>
+
+</head>
+<body>
+   <div class="main">
+     <header class="header">
+        <div class="navbar" herf="/">
+            <div class="icon">
+                <div class="logo-image">
+                    <img src="https://drive.google.com/uc?export=download&id=1mHRgVzF2zfu-my5jU7fA_SDve5WrbV4o" alt="Stunning" width="120" height="70">
+            
+                </div>
+
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Jobs</a></li>
+                </ul>
+            </div>
+
+            <div class="Account">
+                <a href="#"><button class="btn"> Your Account</button></a>
+            </div>
+        </div>
+        </header>
+        <div class="content">
+            <h1>Stunning<br> <span> Workplace</span><span class="dot">.</span></h1>
+            <p class="paragrap">With Stunning, remote teams can organize projects,<br> manage shifting priorities, and get work done.
+            </p>
+            
+            <button class="contact"><a href="#">New Account</a></button>
+        
+            <span class="contact_up_icon"><img src="https://drive.google.com/uc?export=download&id=1LrKfRD4omkhFphw1Q_idW78g-PAKl0nf" alt="up" width="50" height="35"></span>
+
+            <span class="contact_down_icon"><img src="https://drive.google.com/uc?export=download&id=181JOXFowtsOpjkaVS7xHAgiDnfgyE8wN" alt="down" width="50" height="35"></span>
+            </div>
+        <div class="image_rightside">
+            <img src="https://drive.google.com/uc?export=download&id=1UDnhX6bwL2v-3ERAi_R1CqDiMgXeK4x0" alt="Landing_img">
+
+        </div>
+        <div>
+
+        <div class="cards_1">
+                  <span class="checkmark"><i class="fa fa-check-circle white-color fa-2x"></i>
+                    </span>
+            <span class="item_name">Dmm design</span>
+            <span class="image_icon"><img src="https://drive.google.com/uc?export=download&id=1yHnkDBIKAj2OmVvM5rp61EWw-Do3LLsS" alt="image_icon"></span>
+                <span class="date">20 Dec</span><i class="button1"></i>
+
+            </div>
+
+            <div class="cards_2">
+                <span class="checkmark"><i class="fa fa-check-circle white-color fa-2x"></i>
+                </span>
+                <span class="item_name">Blurr animation</span>
+                <span class="image_icon"><img src="https://drive.google.com/uc?export=download&id=1-Vxf4sG82-1oefkWc5ebKSnhz5SUP_fc" alt="image_icon"></span>
+                    <span class="date">22 Dec</span><i class="button2"></i>
+    
+                </div>
+                
+                <div class="cards_3">
+                    <span class="checkmark"><i class="fa fa-check-circle white-color fa-2x"></i>
+                    </span>
+                    <span class="item_name">illustration</span>
+                    <span class="image_icon"><img src="https://drive.google.com/uc?export=download&id=1pSKWS_w7r1woGZ8hZVY3k8TbaIy_55Ti" alt="image_icon"></span>
+                        <span class="date">26 Dec</span><i class="button3"></i>
+        
+                    </div>
+
+                    <div class="cards_4">
+                        <span class="checkmark"><i class="fa fa-check-circle white-color fa-2x"></i>
+                        </span>
+                        <span class="item_name">Refunds</span>
+                        <span class="image_icon"><img src="https://drive.google.com/uc?export=download&id=13SsRVOor6W44v9l7C-4ixVF3-6P6bTyf" alt="image_icon"></span>
+                            <span class="date">28 Dec</span><i class="button4"></i>
+            
+                        </div>
+
+        </div>
+   </div>
+</body>
+</html>
